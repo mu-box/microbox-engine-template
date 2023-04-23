@@ -9,4 +9,4 @@
 nos_init "$@"
 
 # insert process to build the app's Boxfile
-# documentation: http://docs.nanobox.io/engines/scripts/boxfile/
+# documentation: https://docs.microbox.cloud/engines/scripts/boxfile/

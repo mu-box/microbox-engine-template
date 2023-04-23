@@ -1,4 +1,4 @@
-FROM nanobox/build
+FROM mubox/build
 
 # Remove existing engines, we don't want to test those
 RUN rm -rf /opt/engines/*

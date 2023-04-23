@@ -1,5 +1,5 @@
-# The Enginefile provides Nanobox with information about the engine
-# View the documentation at https://docs.nanobox.io/engines/enginefile/
+# The Enginefile provides Microbox with information about the engine
+# View the documentation at https://docs.microbox.cloud/engines/enginefile/
 
 name: 'engine-name'
 version: '0.1.0'

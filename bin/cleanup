@@ -4,4 +4,4 @@
 
 # insert process of removing tools needed for the build process,
 # but not necessary in the live app.
-# documentation: http://docs.nanobox.io/engines/scripts/cleanup/
+# documentation: https://docs.microbox.cloud/engines/scripts/cleanup/

@@ -9,4 +9,4 @@
 nos_init "$@"
 
 # insert the build process used to prepare code for deployment
-# documentation: http://docs.nanobox.io/engines/scripts/build/
+# documentation: https://docs.microbox.cloud/engines/scripts/build/

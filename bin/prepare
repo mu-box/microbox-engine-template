@@ -9,4 +9,4 @@
 nos_init "$@"
 
 # insert process to prepare the environment for the build process
-# documentation: http://docs.nanobox.io/engines/scripts/prepare/
+# documentation: https://docs.microbox.cloud/engines/scripts/prepare/

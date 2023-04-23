@@ -1,16 +1,16 @@
-*This repo provides the basic structure for a [Nanobox engine](http://docs.nanobox.io/getting-started/engines/). Engines automate the building and configuration of application infrastructures. The Readme content below is sample content outlining what an engine Readme should contain.*
+*This repo provides the basic structure for a [Microbox engine](https://docs.microbox.cloud/getting-started/engines/). Engines automate the building and configuration of application infrastructures. The Readme content below is sample content outlining what an engine Readme should contain.*
 
 ---
 
 # Engine Name
 
-*The opening paragraph of an engine's Readme file should explain what the engine is and what makes it unique. Keep in mind that your README.md content will be viewed on [engines.nanobox.io](http://engines.nanobox.io) when published as well as other repo hosting providers, so it's important to set the context of it being a nanobox engine. For Example:*
+*The opening paragraph of an engine's Readme file should explain what the engine is and what makes it unique. Keep in mind that your README.md content will be viewed on [engines.microbox.cloud](https://engines.microbox.cloud) when published as well as other repo hosting providers, so it's important to set the context of it being a microbox engine. For Example:*
 
-This is a nanobox engine that automates the deployment of Ruby on Rails web applications. It includes multiple options for ruby versions and web servers as well as flexible configuration options.
+This is a microbox engine that automates the deployment of Ruby on Rails web applications. It includes multiple options for ruby versions and web servers as well as flexible configuration options.
 
 ## App Detection
 
-*Engines have the ability to auto-detect the language/framework of an app through the [`sniff` script](http://docs.nanobox.io/engines/scripts/sniff/). Outline how the engine detects whether or not it shoulde be used for the application. For example:*
+*Engines have the ability to auto-detect the language/framework of an app through the [`sniff` script](https://docs.microbox.cloud/engines/scripts/sniff/). Outline how the engine detects whether or not it shoulde be used for the application. For example:*
 
 To detect a Ruby on Rails app, this engine checks for the presence of a Gemfile. If a Gemfile, the engine then checks for the presence of the `rails` gem.
 
@@ -29,7 +29,7 @@ To detect a Ruby on Rails app, this engine checks for the presence of a Gemfile.
 ## Configuration Options
 *Each engine has the ability to expose Boxfile configuration options to users. The Readme file should document all available options thoroughly. We suggest including an "Overview" code block that shows all of the options available as well as individual sections that address each option. For example:*
 
-This engine exposes configuration option through the [Boxfile](http://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox. This engine makes the following options available.
+This engine exposes configuration option through the [Boxfile](https://docs.microbox.cloud/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox. This engine makes the following options available.
 
 #### Overview of Boxfile Configuration Options
 ```yaml
@@ -39,9 +39,9 @@ build:
   exec_path: "my/app/application.rb"
 ```
 ##### Quick Links
-[Ruby Version](#ruby-version)  
-[Web Server](#web-server)  
-[Exec Path](#exec-path)  
+[Ruby Version](#ruby-version)
+[Web Server](#web-server)
+[Exec Path](#exec-path)
 
 ---
 
